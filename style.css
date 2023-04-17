@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 82, 82);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding : 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+li{
+    float:right;
+}
+li a{
+        display: block;
+    padding: 20px 20px ;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+.active{
+    background-color: rgb(172, 3, 3);
+}
+li a:hover:not(.active) {
+    text-decoration: underline;
+}
