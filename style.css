@@ -1,29 +1,77 @@
-body{
-    margin: 0;
-    background-color: rgb(255, 82, 82);
+html{
+   scroll-behavior: smooth; 
 }
-ul{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,
+footer {
+    background-color: rgb(31, 28, 41);
+    height: 100vh;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
-    padding : 0;
+    padding: 0;
     position: fixed;
     top: 0;
     width: 100%;
     overflow: hidden;
 }
-li{
-    float:right;
+
+li {
+    float: right;
 }
-li a{
-        display: block;
-    padding: 20px 20px ;
+
+li a {
+    display: block;
+    padding: 20px 20px;
     text-decoration: none;
     text-align: center;
-    color:white;
+    color: rgb(131, 130, 130);
 }
-.active{
-    background-color: rgb(172, 3, 3);
+
+.active {
+    color: white;
 }
+
 li a:hover:not(.active) {
-    text-decoration: underline;
+    color: rgb(250, 248, 248);
+}
+
+.container {
+    padding: 20em 0 0 35em;
+    color: white;
+}
+
+.container1 h1 {
+    padding: 2em 0 0 9em;
+    font-size: 4em;
+    color: rgb(135, 223, 169);
+}
+
+.container1 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container1 p {
+    color: white;
+    padding: 1em 0 0 10em;
+    font-size: 2.5em;
+}
+
+.conl {
+    margin-left: 8em;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.conl:hover,
+.con:hover {
+    color: aqua;
 }
